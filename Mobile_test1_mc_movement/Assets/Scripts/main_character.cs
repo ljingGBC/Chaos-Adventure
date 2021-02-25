@@ -13,7 +13,6 @@ public class main_character : MonoBehaviour {
 	float moveSpeed = 2f;
 
 
-
 	/* GUN
 	float rotateAngle; // rotate gun
 
@@ -38,6 +37,7 @@ public class main_character : MonoBehaviour {
         //rotateAngle = 0f;
         anim = GetComponent<Animator> ();
         anim.speed = 1;
+
     }
 
 	
@@ -47,6 +47,7 @@ public class main_character : MonoBehaviour {
         Move ();
         //Fire ();
         Rotate ();
+
     }
 
     void Move()
