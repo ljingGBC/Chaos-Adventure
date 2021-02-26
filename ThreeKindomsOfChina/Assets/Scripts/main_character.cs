@@ -13,14 +13,14 @@ public class main_character : MonoBehaviour {
 	float moveSpeed = 2f;
 
 
-	/* GUN
+    /* GUN
 	float rotateAngle; // rotate gun
 
 	[SerializeField]
 	float bulletSpeed = 5f;
 	*/
 
-	Animator anim;
+    Animator anim;
 
 	/*
 	// Animator variable to control transitions
@@ -96,7 +96,7 @@ public class main_character : MonoBehaviour {
 
     	/* 8-dir down-right
     	if (dirX == 1 && dirY == -1) {
-    		//rotateAngle = -135f;
+    		rotateAngle = -135f;
     		anim.speed = 1;
     		anim.SetInteger ("Direction", 4);
     	}
