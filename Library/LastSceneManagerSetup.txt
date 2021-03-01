@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/ThreeKindomsOfChina/TownMap/_Scenes/Town.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
