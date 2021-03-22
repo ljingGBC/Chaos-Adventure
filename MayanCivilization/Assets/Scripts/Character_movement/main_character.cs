@@ -76,14 +76,6 @@ public class main_character : MonoBehaviour {
     		anim.SetInteger ("Direction", 1);
     	}
 
-    	/* 8-dir up-right
-    	if (dirX == 1 && dirY == 1) {
-    		//rotateAngle = -45f;
-    		anim.speed = 1;
-    		anim.SetInteger ("Direction", 2);
-    	}
-    	*/
-
     	// right
     	if (dirX == 1 && dirY == 0) {
     		rotateAngle = -90f;
@@ -91,28 +83,12 @@ public class main_character : MonoBehaviour {
     		anim.SetInteger ("Direction", 2);
     	}
 
-    	/* 8-dir down-right
-    	if (dirX == 1 && dirY == -1) {
-    		//rotateAngle = -135f;
-    		anim.speed = 1;
-    		anim.SetInteger ("Direction", 4);
-    	}
-    	*/
-
     	// down
     	if (dirX == 0 && dirY == -1) {
     		rotateAngle = -180f;
     		anim.speed = 1;
     		anim.SetInteger ("Direction", 3);
     	}
-
-    	/* 8-dir down-left
-    	if (dirX == -1 && dirY == -1) {
-    		//rotateAngle = -225f;
-    		anim.speed = 1;
-    		anim.SetInteger ("Direction", 6);
-    	}
-    	*/
     	
     	// left
     	if (dirX == -1 && dirY == 0) {
@@ -121,14 +97,6 @@ public class main_character : MonoBehaviour {
     		anim.SetInteger ("Direction", 4);
     	}
 
-    	/* 8-dir up-left
-    	if (dirX == -1 && dirY == 1) {
-    		//rotateAngle = -315f;
-    		anim.speed = 1;
-    		anim.SetInteger ("Direction", 8);
-    	}
-    	*/
-    	
     	// idle
     	if (dirX == 0 && dirY == 0) {
     		anim.speed = 0;
