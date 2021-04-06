@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ThreeKindomsOfChina/DingJunMountain/RpgMapEditor/Demo/Scenes/DingJun.unity
+- path: Assets/Menu/main_menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
