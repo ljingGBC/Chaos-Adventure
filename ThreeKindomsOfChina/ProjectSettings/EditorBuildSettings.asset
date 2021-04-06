@@ -6,22 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Demos/Demo Start.unity
+    path: Assets/ThreeKindomsOfChina/TownMap/_Scenes/Town.unity
+    guid: 431054be93933714bad788bf47bd8d23
   - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/MainMenu.unity
+    path: Assets/ThreeKindomsOfChina/DingJunMountain/RpgMapEditor/Samples/Scenes/DingJun.unity
+    guid: aeeb1c1d89a87ea4cad0e2c4bf6a5834
   - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/MainWorld.unity
-  - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/HouseMd.unity
-  - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/HouseLrg.unity
-  - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/HouseSml.unity
-  - enabled: 1
-    path: Assets/Troll Bridge Studios/2D Starter Kit/_Scenes/Additional Scenes (Do
-      not run)/InnBasement.unity
+    path: Assets/MayaCivilization/Scenes/Maya_map1_main.unity
+    guid: d06ee4cddd8af413b9e5168c78bfbc83
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

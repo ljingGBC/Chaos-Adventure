@@ -7,15 +7,14 @@ using UnityStandardAssets.CrossPlatformInput;
 public class main_character : MonoBehaviour {
 
 	// variables for character
-	float dirX, dirY; // rotate character
+	float dirX, dirY;
+    //float rotateAngle; // rotate gun
 
-	[SerializeField]
+    [SerializeField]
 	float moveSpeed = 2f;
 
 
     /* GUN
-	float rotateAngle; // rotate gun
-
 	[SerializeField]
 	float bulletSpeed = 5f;
 	*/
@@ -132,6 +131,7 @@ public class main_character : MonoBehaviour {
     	}
     	*/
     	
+        
     	// idle
     	if (dirX == 0 && dirY == 0) {
     		anim.speed = 0;
