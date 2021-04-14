@@ -30,6 +30,12 @@ public class main_character : MonoBehaviour
     Rigidbody2D arrow;
 
 
+    //character health
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBar healthBar;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +43,9 @@ public class main_character : MonoBehaviour
         rotateAngle = 0f;
         anim = GetComponent<Animator>();
         anim.speed = 1;
+
+        currentHealth = maxHealth;//set character health
+        healthBar.SetMaxHealth(maxHealth);//set health bar
 
     }
 
@@ -47,8 +56,17 @@ public class main_character : MonoBehaviour
         Move();
         Fire();
         Rotate();
-
+        
+        
     }
+
+    //function to lose health when be attacked
+   public void loseHealth(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+    }
+
 
     void Move()
     {
