@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/All Scenes/1 Menu/main_menu.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
