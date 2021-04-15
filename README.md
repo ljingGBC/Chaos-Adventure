@@ -1,4 +1,6 @@
 # Chaos-Adventure
+Created/Developed by Lei Jing, Jes Muli, Daniel Lee, and Jiangdong Li
+
 ## About the Project ##
 This is a Single-Player 2D Role-Playing Game (RPG) project. The user plays as the protagonist and will have a wonderful experience in the game. The protagonist and his NPC friends will work together to find the secrets in the game world, defeat their enemies, and eventually become a hero.
 
