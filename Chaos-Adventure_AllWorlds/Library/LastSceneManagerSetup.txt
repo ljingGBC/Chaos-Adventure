@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/All Scenes/2 ThreeKingdom/SmallTown/Town.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
